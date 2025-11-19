@@ -143,23 +143,6 @@ def gerate():
         wordin = letras()
         wordint = loru(wordin)
         word += wordint
-    return word
-def selectword():
-    final = ''
-    words = ['serjo burro', 'neymar',' de',' para',' por', ' que', ' bot',' ante',' a',' apos',' perante',' mussolini', ' xuxa', ' esquizofrênico',' hitler', ' boot', ' robo', ' aleatorio', ' trabalho', ' história', ' geografia', ' matématica', ' loucura', ' português', ' facismo', ' nazismo', ' racismo', ' bolsonaro', ' sérgio', ' maluco', ' deus', ' jesus', ' maome',' judeu', ' adulto ney', ' ney cresceu', 'menino ney cresceu']
-    quant = random.randint(3, 12)
-    for c in range(0, quant):
-        word = random.randint(0, len(words) - 1)
-        final += words[word]
-    return final
-def selectext():
-    final = ''
-    words = [' ney adulto', ' de', ' para', ' por', ' que', ' bot', ' ante',' neymaradulto', ' a', ' apos', ' perante', ' mussolini', ' xuxa',
-             ' esquizofrênico', ' hitler', ' boot', ' robo', ' aleatorio', ' trabalho', ' história', ' geografia', ' grande ney'
-             ' matématica', ' loucura', ' português', ' facismo', ' nazismo', ' racismo', ' bolsonaro', ' sérgio',
-             ' maluco', ' deus', ' jesus', ' maome', ' judeu',' neycresceu', ' serjo folgado', ' grandeney', ' fabiana', ' cão', ' hoje', ' comunismo',                      ' socialismo', ' capitalismo', 'bomba', 'giromangoba',' Chechenia', 'brasil', 'goiaba', 'bot', 'robooot', 'text', 'automatico', ' neyadulto',                 ' neymar', ' bot', ' hacker', ' neymar', ' serjo burro', ' socialismo é uma merda', ' adulto ney', ' fuguete', ' grande ney', ' menino ney cresceu']
-    quant = random.randint(39, len(words))
-    for c in range(1, quant):
-        word = random.randint(0, len(words)-1)
-        final += words[word]
-    return final
+
+
+
